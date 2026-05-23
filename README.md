@@ -183,6 +183,17 @@ Time: XXXns | FIFO became EMPTY at count XX
 ```
 
 ---
+## Simulation Waveform
+
+![Simulation Waveform](simulation_waveform.jpeg)
+
+*Vivado Behavioral Simulation showing write/read operations, full and empty flag assertions.*
+
+## RTL Schematic
+
+![RTL Schematic](rtl_schematic.jpeg)
+
+*Elaborated RTL design showing the top-level netlist with write_logic, read_logic, fifo_memory sub-modules and AND gate gating logic.*
 
 ## Design Notes
 
