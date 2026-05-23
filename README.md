@@ -1,10 +1,10 @@
-# 🔄 Synchronous FIFO Buffer
+# Synchronous FIFO Buffer
 
 A fully synthesizable **Synchronous First-In-First-Out (FIFO) Buffer** implemented in Verilog HDL. Designed and simulated using **Xilinx Vivado**, this project demonstrates a modular RTL design with separate read logic, write logic, and memory components integrated through a top-level module.
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 A FIFO (First-In, First-Out) buffer is a fundamental hardware structure used in digital design for data buffering between modules operating at different rates or for decoupling data producers and consumers. This synchronous FIFO operates on a **single shared clock**, making it ideal for same-clock-domain communication.
 
@@ -22,7 +22,7 @@ A FIFO (First-In, First-Out) buffer is a fundamental hardware structure used in 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The design follows a **modular, hierarchical architecture** with three sub-modules instantiated inside a top-level wrapper:
 
@@ -54,7 +54,7 @@ clk, reset connected to all sub-modules            │
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 SYNCHRONOUS-FIFO-BUFFER/
@@ -72,7 +72,7 @@ SYNCHRONOUS-FIFO-BUFFER/
 
 ---
 
-## 🔌 Module Descriptions
+## Module Descriptions
 
 ### 1. `sync_fifo_top` — Top-Level Module
 
@@ -124,7 +124,7 @@ Manages the 4-bit read pointer and generates the `empty` status flag.
 
 ---
 
-## 🧪 Testbench
+## Testbench
 
 The testbench `sync_fifo_top_tb.v` validates the design through the following test cases:
 
@@ -159,7 +159,7 @@ The testbench `sync_fifo_top_tb.v` validates the design through the following te
 
 ---
 
-## 🚀 How to Simulate
+## How to Simulate
 
 ### In Xilinx Vivado
 
