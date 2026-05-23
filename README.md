@@ -150,7 +150,7 @@ The testbench `sync_fifo_top_tb.v` validates the design through the following te
 
 ---
 
-## 🛠️ Tools & Environment
+## Tools & Environment
 
 - **HDL Language**: Verilog (IEEE 1364-2001)
 - **Simulator / Synthesizer**: Xilinx Vivado Design Suite
@@ -184,7 +184,7 @@ Time: XXXns | FIFO became EMPTY at count XX
 
 ---
 
-## 📐 Design Notes
+## Design Notes
 
 - **Pointer Width (4-bit) vs Memory Depth (8)**: The extra MSB in each pointer is used solely for distinguishing full vs empty conditions — preventing ambiguity when both pointers would otherwise be equal in both states.
 - **Synchronous Read**: Read data is registered, introducing a 1-cycle read latency. This is a standard trade-off for synchronous FIFO designs targeting FPGA block RAM primitives.
@@ -192,7 +192,4 @@ Time: XXXns | FIFO became EMPTY at count XX
 
 ---
 
-## 👤 Author
 
-**GitHub**: [@OCR7Pro](https://github.com/OCR7Pro)  
-**Created**: February 2026
